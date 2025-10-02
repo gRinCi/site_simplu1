@@ -1,17 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site simplu</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+
+      /* imaginea de fundal */
+      background-image: url("fundal.jpg"); /* schimbă numele cu poza ta */
+      background-size: cover;   /* face poza să acopere tot ecranul */
+      background-position: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5); /* mic efect de transparență pt lizibilitate */
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-  <main class="container">
-    <h1>Bun venit!</h1>
-    <p>Aceasta este o pagină demo creată pentru tine. Scanează codul QR pentru a deschide această pagină direct pe telefon.</p>
-    <p>Dacă vrei să publici site-ul online, îți pot arăta pașii (GitHub Pages, Netlify etc.).</p>
-    <footer>Creat cu ❤️</footer>
-  </main>
+  <h1>Bun venit pe site-ul meu!</h1>
 </body>
 </html>
+
